@@ -1,13 +1,13 @@
 {
   "name": "file-upload-vue",
-  "description": "handle file upload with vue",
+  "description": "",
   "version": "1.0.0",
-  "author": "chybie <chy.bie@htmail.com>",
+  "author": "mozy <mozy.okubo@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "deploy": "yarn build && firebase deploy",
+    "deploy": "yarn build",
     "start": "yarn build"
   },
   "dependencies": {
